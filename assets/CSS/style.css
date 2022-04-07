@@ -53,3 +53,16 @@
     height:20%;
     background-color: rgba(128, 0, 0, 0.8);
 }
+#pag3 #eventos .faixaTop ul{
+    position:relative;
+    float:right;
+    margin-right:5px;
+    color:white;
+}
+#pag3 #eventos .faixaBottom {
+    border: 1px solid;
+    width:100%;
+    position:relative;
+    text-align:center;
+    top:70%;
+}
