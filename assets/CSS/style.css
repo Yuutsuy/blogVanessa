@@ -23,6 +23,8 @@
     font-size:40px;
     color:gold;
 }
+
+
 /* altera div info dentro de sobreCenario */
 #pag3 #sobreCenario #info {
     width:100%;
@@ -35,6 +37,7 @@
     margin-bottom:10px;
 }
 
+
 /* altera div eventos */
 #pag3 #eventos {
     display: flex;
@@ -42,25 +45,82 @@
     width:100%;
     height:72%;
 }
-
+/* altera div class locais dentro de eventos */
 #pag3 #eventos .locais {
     width:50%;
     height:50%;
     border: 1px solid white;
+    background-image:url('https://img.freepik.com/fotos-gratis/renderizacao-3d-vazio-estadio-de-futebol-americano-a-noite_493806-4586.jpg?w=900');
+    background-size:100% 100%;
+    background-repeat: no-repeat;
 }
+/* altera div class faixaTop dentro de eventos */
 #pag3 #eventos .faixaTop {
+    display:flex;
+    justify-content: space-between;
     width:100%;
     height:20%;
     background-color: rgba(128, 0, 0, 0.8);
 }
+/* altera a div class times dentro de faixaTop */
+#pag3 #eventos .faixaTop .times {
+    display:flex;
+    justify-content: space-between;
+    width:30%;
+    height:100%;
+}
+/* altera a tag img dentro da div id time1*/
+#pag3 #eventos .faixaTop .times #time1 img{
+    position:relative;
+    width:100%;
+}
+/* altera a tag img dentro da div id time2*/
+#pag3 #eventos .faixaTop .times #time2 img{
+    position:relative;
+    width:90%;
+}
+/* altera a tag img dentro da div id time3*/
+#pag3 #eventos .faixaTop .times #time3 img{
+    position:relative;
+    width:100%;
+}
+/* altera a tag img dentro da div id time4*/
+#pag3 #eventos .faixaTop .times #time4 img{
+    position:relative;
+    width:90%;
+}
+/* altera a tag img dentro da div id time5*/
+#pag3 #eventos .faixaTop .times #time5 img{
+    position:relative;
+    width:100%;
+}
+/* altera a tag img dentro da div id time6*/
+#pag3 #eventos .faixaTop .times #time6 img{
+    position:relative;
+    width:100%;
+}
+/* altera a tag img dentro da div id time7*/
+#pag3 #eventos .faixaTop .times #time7 img{
+    position:relative;
+    width:45px;
+    height:45px;
+}
+/* altera a tag img dentro da div id time8*/
+#pag3 #eventos .faixaTop .times #time8 img{
+    position:relative;
+    width:43px;
+    height:43px;
+}
+/* altera tag ul dentro da div class faixaTop */
 #pag3 #eventos .faixaTop ul{
     position:relative;
     float:right;
     margin-right:5px;
     color:white;
 }
+/* altera div class faixaBottom dentro de eventos */
 #pag3 #eventos .faixaBottom {
-    border: 1px solid;
+    background-color:white;
     width:100%;
     position:relative;
     text-align:center;
