@@ -72,33 +72,42 @@
 /* altera a tag img dentro da div id time1*/
 #pag3 #eventos .faixaTop .times #time1 img{
     position:relative;
-    width:100%;
+    width:46px;
+    height:46px
 }
 /* altera a tag img dentro da div id time2*/
 #pag3 #eventos .faixaTop .times #time2 img{
     position:relative;
-    width:90%;
+    width:40px;
+    height:40px;
 }
+
 /* altera a tag img dentro da div id time3*/
 #pag3 #eventos .faixaTop .times #time3 img{
     position:relative;
-    width:100%;
+    width:45px;
+    height:45px;
 }
 /* altera a tag img dentro da div id time4*/
 #pag3 #eventos .faixaTop .times #time4 img{
     position:relative;
-    width:90%;
+    width:47px;
+    height:47px;
 }
+
 /* altera a tag img dentro da div id time5*/
 #pag3 #eventos .faixaTop .times #time5 img{
     position:relative;
-    width:100%;
+    width:43px;
+    height:43px;
 }
 /* altera a tag img dentro da div id time6*/
 #pag3 #eventos .faixaTop .times #time6 img{
     position:relative;
-    width:100%;
+    width:42px;
+    height:42px;
 }
+
 /* altera a tag img dentro da div id time7*/
 #pag3 #eventos .faixaTop .times #time7 img{
     position:relative;
@@ -108,8 +117,8 @@
 /* altera a tag img dentro da div id time8*/
 #pag3 #eventos .faixaTop .times #time8 img{
     position:relative;
-    width:43px;
-    height:43px;
+    width:42px;
+    height:42px;
 }
 /* altera tag ul dentro da div class faixaTop */
 #pag3 #eventos .faixaTop ul{
