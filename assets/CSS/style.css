@@ -59,8 +59,8 @@
     display:flex;
     justify-content: space-between;
     width:100%;
-    height:20%;
-    background-color: rgba(128, 0, 0, 0.8);
+    height:25%;
+    background-color: rgba(128, 0, 0, 0.6);
 }
 /* altera a div class times dentro de faixaTop */
 #pag3 #eventos .faixaTop .times {
@@ -69,56 +69,83 @@
     width:30%;
     height:100%;
 }
+/* altera a div class nome dentro da div class times */
+#pag3 #eventos .faixaTop .times .nome{
+    font-size: 15px;
+    text-shadow: 1px 0 0 white, -1px 0 0 white, 0 1px 0 white, 0 -1px 0 white;
+}
+
+
+/* foi necessário trabalhar com as imagens de forma isolada,
+pois elas tinham um tamanho diferente para cada div faixa top,
+ou seja, uma mesma imagem ficava maior que a outra quando colocada em outra div faixa top */
+
 /* altera a tag img dentro da div id time1*/
 #pag3 #eventos .faixaTop .times #time1 img{
     position:relative;
-    width:46px;
-    height:46px
+    width:53px;
+    height:53px;
+}
+/* altera a div id time1 dentro da div class times */
+#pag3 #eventos .faixaTop .times #time1 {
+    margin-right: 20px;
 }
 /* altera a tag img dentro da div id time2*/
 #pag3 #eventos .faixaTop .times #time2 img{
     position:relative;
-    width:40px;
-    height:40px;
+    width:50px;
+    height:50px;
 }
 
 /* altera a tag img dentro da div id time3*/
 #pag3 #eventos .faixaTop .times #time3 img{
     position:relative;
-    width:45px;
-    height:45px;
+    width:50px;
+    height:50px;
+}
+/* altera a div id time3 dentro da div class times */
+#pag3 #eventos .faixaTop .times #time3 {
+    margin-right: 20px;
 }
 /* altera a tag img dentro da div id time4*/
 #pag3 #eventos .faixaTop .times #time4 img{
     position:relative;
-    width:47px;
-    height:47px;
+    width:51px;
+    height:51px;
 }
 
 /* altera a tag img dentro da div id time5*/
 #pag3 #eventos .faixaTop .times #time5 img{
     position:relative;
-    width:43px;
-    height:43px;
+    width:50px;
+    height:50px;
+}
+/* altera a div id time5 dentro da div class times */
+#pag3 #eventos .faixaTop .times #time5 {
+    margin-right: 20px;
 }
 /* altera a tag img dentro da div id time6*/
 #pag3 #eventos .faixaTop .times #time6 img{
     position:relative;
-    width:42px;
-    height:42px;
+    width:55px;
+    height:55px;
 }
 
 /* altera a tag img dentro da div id time7*/
 #pag3 #eventos .faixaTop .times #time7 img{
     position:relative;
-    width:45px;
-    height:45px;
+    width:50px;
+    height:50px;
+}
+/* altera a div id time7 dentro da div class times */
+#pag3 #eventos .faixaTop .times #time7 {
+    margin-right: 20px;
 }
 /* altera a tag img dentro da div id time8*/
 #pag3 #eventos .faixaTop .times #time8 img{
     position:relative;
-    width:42px;
-    height:42px;
+    width:47x;
+    height:47px;
 }
 /* altera tag ul dentro da div class faixaTop */
 #pag3 #eventos .faixaTop ul{
@@ -133,5 +160,5 @@
     width:100%;
     position:relative;
     text-align:center;
-    top:70%;
+    top:65%;
 }
