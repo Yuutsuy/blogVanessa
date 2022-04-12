@@ -32,15 +32,51 @@
     }
 
     #pag3 #eventos .faixaTop .times #time1 img{
-        width:13vw;
-        height:13vw;
+        width:15vw;
+        height:16vh;
     }
     #pag3 #eventos .faixaTop .times #time2 img{
-        width:13vw;
-        height:13vw;
+        width:15vw;
+        height:16vh;
     }
     #pag3 #eventos .faixaTop .times #time3 img{
-        width:50px;
-        height:50px;
+        width:15vw;
+        height:16vh;
+    }
+    #pag3 #eventos .faixaTop .times #time4 img{
+        width:15vw;
+        height:16vh;
+    }
+    #pag3 #eventos .faixaTop .times #time5 img{
+        width:15vw;
+        height:16vh;
+    }
+    #pag3 #eventos .faixaTop .times #time6 img{
+        width:15vw;
+        height:16vh;
+    }
+    #pag3 #eventos .faixaTop .times #time7 img{
+        width:15vw;
+        height:16vh;
+    }
+    #pag3 #eventos .faixaTop .times #time8 img{
+        width:15vw;
+        height:16vh;
+    }
+}
+
+@media (max-width: 425px)
+{
+    #pag3 #sobreCenario{
+        height:90%;
+    }
+    #pag3 #sobreCenario #info {
+        margin-top:30%;
+    }
+    #pag3 #eventos .faixaTop .times .nome{
+        font-size: 23px;
+    }
+    #pag3 #eventos .faixaTop ul li {
+        font-size:20px;
     }
 }
