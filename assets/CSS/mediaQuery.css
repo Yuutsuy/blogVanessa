@@ -10,13 +10,18 @@
         width:100%;
         align-content:center;
     }
+    #pag3 #sobreCenario #titulo h3{
+        font-size:50px;
+    }
     #pag3 #sobreCenario #info {
         position:relative;
-        font-size:10%;
         margin-top:40px;
         padding-right:10%;
         padding-left:10%;
         align-content:center;
+    }
+    #pag3 #sobreCenario #info p{
+        font-size:17px;
     }
     #pag3 #eventos {
         display:block;
@@ -25,44 +30,52 @@
         width:100%;
         height:100%;
     }
-    #pag3 #eventos .faixaTop .times .nome{
+    #pag3 #eventos .locais .faixaTop .times .nome{
         font-size: 35px;
     }
-    #pag3 #eventos .faixaTop ul li {
+    #pag3 #eventos .locais .faixaTop ul li {
         font-size: 35px;
     }
 
-    #pag3 #eventos .faixaTop .times #time1 img{
+    #pag3 #eventos .locais .faixaTop .times #time1 img{
         width:15vw;
         height:16vh;
     }
-    #pag3 #eventos .faixaTop .times #time2 img{
+    #pag3 #eventos .locais .faixaTop .times #time2 img{
         width:15vw;
         height:16vh;
     }
-    #pag3 #eventos .faixaTop .times #time3 img{
+    #pag3 #eventos .locais .faixaTop .times #time3 img{
         width:15vw;
         height:16vh;
     }
-    #pag3 #eventos .faixaTop .times #time4 img{
+    #pag3 #eventos .locais .faixaTop .times #time4 img{
         width:15vw;
         height:16vh;
     }
-    #pag3 #eventos .faixaTop .times #time5 img{
+    #pag3 #eventos .locais .faixaTop .times #time5 img{
         width:15vw;
         height:16vh;
     }
-    #pag3 #eventos .faixaTop .times #time6 img{
+    #pag3 #eventos .locais .faixaTop .times #time6 img{
         width:15vw;
         height:16vh;
     }
-    #pag3 #eventos .faixaTop .times #time7 img{
+    #pag3 #eventos .locais .faixaTop .times #time7 img{
         width:15vw;
         height:16vh;
     }
-    #pag3 #eventos .faixaTop .times #time8 img{
+    #pag3 #eventos .locais .faixaTop .times #time8 img{
         width:15vw;
         height:16vh;
+    }
+    #pag3 #eventos .locais .faixaBottom {
+        width:100%;
+        margin-top:3%;
+        font-size:15px;
+    }
+    #pag3 #eventos .locais .faixaBottom {
+        font-size:25px;
     }
 }
 

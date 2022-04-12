@@ -20,18 +20,21 @@
     height:100%;
     text-align:center;
     font-size:30px;
+    margin-top:10px;
     color:gold;
 }
 /* altera div info dentro de sobreCenario */
 #pag3 #sobreCenario #info {
     width:100%;
     height:100%;
+    margin-left:10px;
 }
 /* altera p dentro da div info */
 #pag3 #sobreCenario #info p{
     color:white;
     font-size:18px;
     margin-bottom:10px;
+    margin-top:10px;
 }
 
 
@@ -150,6 +153,7 @@ ou seja, uma mesma imagem ficava maior que a outra quando colocada em outra div 
     float:right;
     margin-right:5px;
     color:white;
+    list-style-type: none;
 }
 /* altera div class faixaBottom dentro de eventos */
 #pag3 #eventos .faixaBottom {
@@ -157,5 +161,5 @@ ou seja, uma mesma imagem ficava maior que a outra quando colocada em outra div 
     width:100%;
     position:relative;
     text-align:center;
-    top:65%;
+    top:63%;
 }
