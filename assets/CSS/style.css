@@ -12,19 +12,16 @@
 }
 /* altera div titulo */
 #pag3 #sobreCenario #titulo {
-    width:300px;
-    height:100%;
+    width:250px;
 }
 /* altera tag h3 dentro de titulo */
 #pag3 #sobreCenario #titulo h3{
     width:100%;
     height:100%;
     text-align:center;
-    font-size:40px;
+    font-size:30px;
     color:gold;
 }
-
-
 /* altera div info dentro de sobreCenario */
 #pag3 #sobreCenario #info {
     width:100%;
@@ -33,7 +30,7 @@
 /* altera p dentro da div info */
 #pag3 #sobreCenario #info p{
     color:white;
-    font-size:17px;
+    font-size:13px;
     margin-bottom:10px;
 }
 
@@ -144,7 +141,7 @@ ou seja, uma mesma imagem ficava maior que a outra quando colocada em outra div 
 /* altera a tag img dentro da div id time8*/
 #pag3 #eventos .faixaTop .times #time8 img{
     position:relative;
-    width:47x;
+    width:47px;
     height:47px;
 }
 /* altera tag ul dentro da div class faixaTop */
