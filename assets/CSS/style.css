@@ -72,22 +72,26 @@
 #pag3 #jogos .times .faixaTimes .times1 img {
     width:10vw;
 }
+/* altera a tag h3 dentro da div class times1 */
 #pag3 #jogos .times .faixaTimes .times1 h3 {
     border-bottom:2px solid black;
 }
-/* altera tag img dentro da div class times1 */
+/* altera tag img dentro da div class times2 */
 #pag3 #jogos .times .faixaTimes .times2 img {
     width:9vw;
 }
+/* altera a tag h3 dentro da div class times2 */
 #pag3 #jogos .times .faixaTimes .times2 h3 {
     margin-top:14px;
     border-bottom:2px solid black;
 }
+/* altera data e hora dentro da div class faitaTimes */
 #pag3 #jogos .times .faixaTimes .hora {
     text-transform:uppercase;
     text-align:center;
     font-weight:bold;
 }
+/* altera a tag ul dentro da div class hora */
 #pag3 #jogos .times .faixaTimes .hora ul {
     list-style-type:none;
     margin-top:50%;
