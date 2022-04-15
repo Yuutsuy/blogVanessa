@@ -1,66 +1,34 @@
-@media screen and (max-width: 768px) {
-    #pag3 #sobreCenario #info p{
-        font-size:86%;
-    }
-    #pag3 #eventos{
-        flex-direction:column;
-        flex-wrap:no-wrap;
-    }
-    #pag3 #eventos .locais .faixaTop .times .nome {
-        font-size:13px;
-    }
-    #pag3 #eventos .faixaTop .times #time1 img{
-        width:8vw;
-        height:10vh;
-    }
-    #pag3 #eventos .faixaTop .times #time2 img{
-        width:7vw;
-        height:9vh;
-    }
-    #pag3 #eventos .faixaTop .times #time3 img{
-        width:7vw;
-        height:9vh;
-    }
-    #pag3 #eventos .faixaTop .times #time4 img{
-        width:7vw;
-        height:9vh;
-    }
-    #pag3 #eventos .faixaTop .times #time5 img{
-        width:8vw;
-        height:10vh;
-    }
-    #pag3 #eventos .faixaTop .times #time6 img{
-        width:8vw;
-        height:10vh;
-    }
-    #pag3 #eventos .faixaTop .times #time7 img{
-        width:8vw;
-        height:10vh;
-    }
-    #pag3 #eventos .faixaTop .times #time8 img{
-        width:7vw;
-        height:9vh;
-    }
-}
-
+/* deixando tela responssiva para celular */
 @media screen and (max-width:426px) {
- #pag3 #sobreCenario {
-     flex-direction:column;
-     height:60%;
-     padding-left:3%;
-     padding-right:3%;
- }
- #pag3 #sobreCenario #titulo{
-     width:100%;
- }
- #pag3 #sobreCenario #info p{
+    #pag3 #sobreCenario {
+        flex-direction:column;
+        height:60%;
+        padding-left:3%;
+        padding-right:3%;
+    }
+    #pag3 #sobreCenario #titulo{
+        width:100%;
+    }
+    #pag3 #sobreCenario #info p{
     font-size:98%;
- }
- #pag3 #jogos {
-     display:block;
- }
- #pag3 #jogos .faixaTimes{
-     width:100%;
-     height:100%;
- }
+    }
+    #pag3 #jogos {
+        display:block;
+    }
+    #pag3 #jogos .times{
+        width:100%;
+        height:100%;
+    }
+    #pag3 #jogos .times .faixaTimes .times1 img {
+    width:30vw;
+    }
+    #pag3 #jogos .times .faixaTimes .times2 img {
+    width:30vw;
+    }
+    #pag3 #jogos .times .faixaTimes .times2 h3 {
+        margin-top:0px;
+    }
+    #pag3 #jogos .endereco {
+        margin-top:20%;
+    }
 }
