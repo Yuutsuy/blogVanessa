@@ -54,59 +54,13 @@
      width:100%;
  }
  #pag3 #sobreCenario #info p{
-    font-size:100%;
+    font-size:98%;
  }
- #pag3 #eventos {
+ #pag3 #jogos {
      display:block;
  }
- #pag3 #eventos .locais{
+ #pag3 #jogos .faixaTimes{
      width:100%;
      height:100%;
- }
- #pag3 #eventos .locais .faixaTop .times .nome {
-     font-size:20px;
- }
- #pag3 #eventos .locais .faixaTop .times #time1 img{
-    margin-left:4%;
-    width:21vw;
-    height:20vh;
- }
- #pag3 #eventos .locais .faixaTop .times #time2 img{
-    margin-left:4%;
-    width:19vw;
-    height:18vh;
- }
- #pag3 #eventos .locais .faixaTop .times #time3 img{
-    margin-left:4%;
-    width:19vw;
-    height:17vh;
- }
- #pag3 #eventos .locais .faixaTop .times #time4 img{
-    margin-left:4%;
-    width:19vw;
-    height:18vh;
- }
- #pag3 #eventos .locais .faixaTop .times #time5 img{
-    margin-left:4%;
-    width:20vw;
-    height:18vh;
- }
- #pag3 #eventos .locais .faixaTop .times #time6 img{
-    margin-left:4%;
-    width:20vw;
-    height:18vh;
- }
- #pag3 #eventos .locais .faixaTop .times #time7 img{
-    margin-left:4%;
-    width:20vw;
-    height:18vh;
- }
- #pag3 #eventos .locais .faixaTop .times #time8 img{
-    margin-left:4%;
-    width:20vw;
-    height:19vh;
- }
- #pag3 #eventos .locais .faixaTop ul li {
-     font-size:20px;
  }
 }

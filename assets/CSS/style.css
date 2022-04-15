@@ -32,131 +32,70 @@
 /* altera p dentro da div info */
 #pag3 #sobreCenario #info p{
     color:white;
-    font-size:18px;
-    margin-bottom:10px;
+    font-size:100%;
     margin-top:10px;
 }
 
 
 /* altera div eventos */
-#pag3 #eventos {
+#pag3 #jogos {
     display: flex;
     flex-wrap:wrap;
     width:100%;
-    height:72%;
+    height:75%;
 }
 /* altera div class locais dentro de eventos */
-#pag3 #eventos .locais {
+#pag3 #jogos .times  {
+    display:flex;
     width:50%;
     height:50%;
     border: 1px solid white;
-    background-image:url('https://img.freepik.com/fotos-gratis/renderizacao-3d-vazio-estadio-de-futebol-americano-a-noite_493806-4586.jpg?w=900');
-    background-size:100% 100%;
-    background-repeat: no-repeat;
+    background-color: rgba(128, 0, 0, 0.8);
 }
-/* altera div class faixaTop dentro de eventos */
-#pag3 #eventos .faixaTop {
-    display:flex;
-    justify-content: space-between;
+/* altera a div class times dentro da div class faixaTimes */
+#pag3 #jogos .times  {
+    border: 1px solid white;
+    width:50%;
+    height:50%;
+}
+/* altera a div class times dentro da div class faixaTimes */
+#pag3 #jogos .times .faixaTimes{
+    background-color: rgb(112, 109, 109);
+    margin-top:5px;
     width:100%;
-    height:25%;
-    background-color: rgba(128, 0, 0, 0.6);
-}
-/* altera a div class times dentro de faixaTop */
-#pag3 #eventos .faixaTop .times {
+    height:70%;
+    padding-left:7%;
+    padding-right:7%;
     display:flex;
-    justify-content: space-between;
-    width:30%;
-    height:100%;
+    justify-content:space-between;   
 }
-/* altera a div class nome dentro da div class times */
-#pag3 #eventos .faixaTop .times .nome{
-    font-size: 15px;
-    text-shadow: 1px 0 0 white, -1px 0 0 white, 0 1px 0 white, 0 -1px 0 white;
+/* altera tag img dentro da div class times1 */
+#pag3 #jogos .times .faixaTimes .times1 img {
+    width:10vw;
 }
-
-
-/* foi necessário trabalhar com as imagens de forma isolada,
-pois elas tinham um tamanho diferente para cada div faixa top,
-ou seja, uma mesma imagem ficava maior que a outra quando colocada em outra div faixa top */
-
-/* altera a tag img dentro da div id time1*/
-#pag3 #eventos .faixaTop .times #time1 img{
-    position:relative;
-    width:53px;
-    height:53px;
+#pag3 #jogos .times .faixaTimes .times1 h3 {
+    border-bottom:2px solid black;
 }
-/* altera a div id time1 dentro da div class times */
-#pag3 #eventos .faixaTop .times #time1 {
-    margin-right: 20px;
+/* altera tag img dentro da div class times1 */
+#pag3 #jogos .times .faixaTimes .times2 img {
+    width:9vw;
 }
-/* altera a tag img dentro da div id time2*/
-#pag3 #eventos .faixaTop .times #time2 img{
-    position:relative;
-    width:50px;
-    height:50px;
+#pag3 #jogos .times .faixaTimes .times2 h3 {
+    margin-top:14px;
+    border-bottom:2px solid black;
+}
+#pag3 #jogos .times .faixaTimes .hora {
+    text-transform:uppercase;
+    text-align:center;
+    font-weight:bold;
+}
+#pag3 #jogos .times .faixaTimes .hora ul {
+    list-style-type:none;
+    margin-top:50%;
 }
 
-/* altera a tag img dentro da div id time3*/
-#pag3 #eventos .faixaTop .times #time3 img{
-    position:relative;
-    width:50px;
-    height:50px;
-}
-/* altera a div id time3 dentro da div class times */
-#pag3 #eventos .faixaTop .times #time3 {
-    margin-right: 20px;
-}
-/* altera a tag img dentro da div id time4*/
-#pag3 #eventos .faixaTop .times #time4 img{
-    position:relative;
-    width:51px;
-    height:51px;
-}
-
-/* altera a tag img dentro da div id time5*/
-#pag3 #eventos .faixaTop .times #time5 img{
-    position:relative;
-    width:50px;
-    height:50px;
-}
-/* altera a div id time5 dentro da div class times */
-#pag3 #eventos .faixaTop .times #time5 {
-    margin-right: 20px;
-}
-/* altera a tag img dentro da div id time6*/
-#pag3 #eventos .faixaTop .times #time6 img{
-    position:relative;
-    width:55px;
-    height:55px;
-}
-
-/* altera a tag img dentro da div id time7*/
-#pag3 #eventos .faixaTop .times #time7 img{
-    position:relative;
-    width:50px;
-    height:50px;
-}
-/* altera a div id time7 dentro da div class times */
-#pag3 #eventos .faixaTop .times #time7 {
-    margin-right: 20px;
-}
-/* altera a tag img dentro da div id time8*/
-#pag3 #eventos .faixaTop .times #time8 img{
-    position:relative;
-    width:47px;
-    height:47px;
-}
-/* altera tag ul dentro da div class faixaTop */
-#pag3 #eventos .faixaTop ul{
-    position:relative;
-    float:right;
-    margin-right:5px;
-    color:white;
-    list-style-type: none;
-}
 /* altera div class faixaBottom dentro de eventos */
-#pag3 #eventos .faixaBottom {
+#pag3 #jogos .faitaBaixo {
     background-color:white;
     width:100%;
     position:relative;
