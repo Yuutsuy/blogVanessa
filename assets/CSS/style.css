@@ -46,7 +46,6 @@
 }
 /* altera div class locais dentro de eventos */
 #pag3 #jogos .times  {
-    display:flex;
     width:50%;
     height:50%;
     border: 1px solid white;
@@ -95,10 +94,8 @@
 }
 
 /* altera div class faixaBottom dentro de eventos */
-#pag3 #jogos .faitaBaixo {
+#pag3 #jogos .endereco {
     background-color:white;
-    width:100%;
-    position:relative;
     text-align:center;
-    top:63%;
+    margin-top:5%;
 }
